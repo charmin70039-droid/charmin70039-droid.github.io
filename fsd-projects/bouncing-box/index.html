@@ -8,7 +8,7 @@
       .box {
         width: 70px;
         height: 70px;
-        background-color: teal;
+        background-color: rgb(242, 244, 244);
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -21,6 +21,8 @@
 
       .board {
         height: 100vh;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ48nmn138HtuZVLdQ2k2fXKBJ_qqhlqFZ_20qbDst5A&s=10jpg);
+      
       }
     </style>
     <!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -76,6 +78,10 @@
         var speedY;
         var boardWidth 
         var boardHeight = jQuery(window).height();
+        var randNum = Math.random() * 100;
+        var colorStr = "rgb(50, 25, 250)";
+box.css("background-color", colorStr);
+var randomNumberBetween0and10 = Math.random() * 10;
 
         /**
          * This Function will be called 20 times/second.
@@ -114,7 +120,7 @@
          positionX = 0
          points++;
           changeBoxText(points);
-          speed += 100;
+          speed += .5;
 
 
 
