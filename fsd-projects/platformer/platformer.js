@@ -54,7 +54,7 @@ $(function () {
     createPlatform(0,0,1400,90,"black")
     createPlatform(668,550,50,10,"black")
     createCannon("right",750,3000);
-    createCannon("top",150,300)
+    createCannon("top",150,0)
     createCannon("top",677,1200)
     createPlatform(900,500,10,300,"black")
     createPlatform(900,720,300,20,"black")
