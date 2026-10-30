@@ -23,7 +23,7 @@ body {
 }
 
 .snake {
-  background-color: rgb(233, 10, 253);
+  background-color: rgb(200, 10, 253);
   z-index: 2;
 }
 
